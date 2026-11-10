@@ -1,0 +1,16 @@
+{
+  "judul": "Diagnosis Gangguan Jaringan WiFi",
+  "batas": "Aturan berasal dari 3 dokumentasi jaringan (Kominfo, Microsoft, Cisco) dan hanya mencakup masalah konektivitas lokal dan eksternal standar rumahan.",
+  "sumber": {
+    "S1": "https://kominfo.go.id",
+    "S2": "https://microsoft.com",
+    "S3": "https://cisco.com"
+  },
+  "aturan": [
+    {"id": "R1", "jika": ["lampu internet mati", "tidak ada respons ping"], "mode": "atau", "maka": "masalah koneksi luar"},
+    {"id": "R2", "jika": ["masalah koneksi luar", "sudah restart tetap mati"], "mode": "dan", "maka": "gangguan massal ISP"},
+    {"id": "R3", "jika": ["lampu internet menyala", "hanya satu perangkat bermasalah"], "mode": "dan", "maka": "masalah perangkat lokal"},
+    {"id": "R4", "jika": ["masalah perangkat lokal", "sistem operasi windows"], "mode": "dan", "maka": "perbarui driver wifi"},
+    {"id": "R5", "jika": ["lampu internet menyala", "semua perangkat bermasalah"], "mode": "dan", "maka": "overload router"}
+  ]
+}
