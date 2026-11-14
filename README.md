@@ -82,6 +82,5 @@ Pengetahuan sistem pakar ini dirancang satu paragraf berdasarkan rangkuman dokum
 ---
 
 ## 7. Penggunaan Alat Bantu AI
-* **Alat AI yang Digunakan:** Claude.
-* **Tujuan Penggunaan:** Digunakan untuk membantu menstrukturisasi basis pengetahuan jaringan ke dalam skema file JSON, serta merapikan penyusunan komponen tabel dokumentasi markdown ini agar sesuai dengan instruksi pengerjaan tugas.
+* **Tujuan Penggunaan:** Digunakan untuk membantu merapikan penyusunan komponen tabel dokumentasi markdown agar sesuai dengan instruksi pengerjaan tugas.
 
