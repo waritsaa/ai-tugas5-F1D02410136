@@ -77,7 +77,7 @@ Metode inferensi yang diimplementasikan dalam sistem pakar ini adalah **Forward 
 ---
 
 ## 6. Batas Keberlakuan Pengetahuan
-Pengetahuan sistem pakar ini dirancang satu paragraf berdasarkan rangkuman dokumentasi resmi jaringan milik Kominfo, Microsoft, dan Cisco. Batas cakupan masalah sistem ini hanya berlaku untuk menangani gangguan konektivitas lokal nirkabel dan eksternal skala kecil pada jaringan internet rumah standar. Seluruh hasil keluaran diagnosis beserta pohon pelacakan alasan (*backward trace*) yang ditampilkan oleh program **bersifat sebagai rekomendasi atau saran troubleshooting awal bagi pengguna mandiri, bukan merupakan keputusan teknis mutlak yang menggantikan regulasi atau penanganan langsung oleh teknisi penyedia jasa internet (ISP).**
+Pengetahuan sistem pakar ini dirancang satu paragraf berdasarkan rangkuman dokumentasi resmi jaringan milik Kominfo, Microsoft, dan Cisco. Batas cakupan masalah sistem ini hanya berlaku untuk menangani gangguan konektivitas lokal nirkabel dan eksternal skala kecil pada jaringan internet rumah standar. Seluruh hasil keluaran diagnosis beserta pohon pelacakan alasan (*backward trace*) yang ditampilkan oleh program, bersifat sebagai rekomendasi atau saran troubleshooting awal bagi pengguna mandiri, bukan merupakan keputusan teknis mutlak yang menggantikan regulasi atau penanganan langsung oleh teknisi penyedia jasa internet (ISP).
 
 ---
 
