@@ -60,19 +60,19 @@ Metode inferensi yang diimplementasikan dalam sistem pakar ini adalah **Forward 
 * **Jawaban "ya" dari user:** `tidak ada respons ping`, `lampu internet menyala`, `lampu internet mati`, `semua perangkat bermasalah`, `sistem operasi windows`, `sudah restart tetap mati`
 * **Hasil Kesimpulan:** gangguan massal ISP, overload router
 * **Tampilan Screenshot:**
-  ![Kasus Uji 1](Kasus1.png)
+  ![Kasus Uji 1](Screenshot/Kasus1.png)
 
 ### Kasus Uji 2: Diagnosis Pembaruan Driver Wifi (Menghasilkan Kesimpulan)
 * **Jawaban "ya" dari user:** `hanya satu perangkat bermasalah`, `lampu internet menyala`, `sistem operasi windows`
 * **Hasil Kesimpulan:** perbarui driver wifi
 * **Tampilan Screenshot:**
-  ![Kasus Uji 2](Kasus2.png)
+  ![Kasus Uji 2](Screenshot/Kasus2.png)
 
 ### Kasus Uji 3: Skenario Gejala Tidak Sesuai Aturan (Kasus Negatif / Tidak Ada Kesimpulan)
 * **Jawaban "ya" dari user:** `sistem operasi windows` (saja)
 * **Hasil Kesimpulan:** tidak ada
 * **Tampilan Screenshot:**
-  ![Kasus Uji 3](Kasus3.png)
+  ![Kasus Uji 3](Screenshot/Kasus3.png)
 
 ---
 
